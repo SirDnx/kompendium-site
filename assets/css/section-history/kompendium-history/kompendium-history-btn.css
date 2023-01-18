@@ -23,3 +23,10 @@
     }
 }
 
+@media screen and (max-width: 520px){
+    .kompendium--history__btn{
+        width: 180px;
+    }
+}
+
+
