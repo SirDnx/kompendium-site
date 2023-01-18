@@ -1,0 +1,32 @@
+.history__container__img{
+    background: url(../../../img/sobrenos.jpeg) no-repeat center / cover;
+    border-radius: 4px;
+    height: 615px;
+    width: 315px;
+}
+
+@media screen and (max-width: 1450px){
+    .history__container__img{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .history__container__img{
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .history__container__img{
+        width: 202px;     
+    }
+}
+
+@media screen and (max-width: 960px){
+    .history__container__img{
+        background: url(../../../img/sobrenos_inteira.jpeg) no-repeat top / cover;
+        height: 300px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+.header__logo--item{
+    display: inline-block;
+}
+
+@media screen and (max-width: 960px){
+    .header__logo--item{
+        display: block;
+        max-width: 500px;
+    }
+}

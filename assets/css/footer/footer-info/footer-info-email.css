@@ -1,0 +1,17 @@
+.footer__info__email{
+    color: var(--color-p-footer);
+    text-align: end;
+}
+
+@media screen and (max-width: 768px){
+    .footer__info__email{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .footer__info__email{
+        box-sizing: initial;
+        margin-bottom: 10px;
+    }
+}

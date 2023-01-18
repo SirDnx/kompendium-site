@@ -1,0 +1,21 @@
+.history__content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+    
+.kompendium--history, .history__content--img{
+    width: 49%;
+}
+    
+@media screen and (max-width: 768px){
+
+    .history__content{
+        flex-direction: column;
+    }
+
+    .kompendium--history, .history__content--img{
+        width: 100%;
+    }
+}

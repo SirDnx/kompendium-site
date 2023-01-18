@@ -1,0 +1,18 @@
+.beginning__menu--icon{
+    margin-bottom: 1.35rem;
+    width: 60px;
+}
+
+@media screen and (max-width: 520px){
+    .beginning__menu--icon{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .beginning__menu--icon{
+        height: 35px;
+        width: 35px;
+    }
+}

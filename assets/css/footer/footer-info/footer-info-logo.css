@@ -1,0 +1,19 @@
+.footer__info__logo{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+@media screen and (max-width: 1200px){
+    .footer__info__logo{
+        width: 49%;
+    }   
+}
+
+@media screen and (max-width: 768px){
+    .footer__info__logo{
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+}

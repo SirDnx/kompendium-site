@@ -1,0 +1,22 @@
+.section__main--content{
+    margin: 0 auto;
+    width: 82%;
+}
+
+@media screen and (max-width: 1024px){
+    .section__main--content{
+        width: 91%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .section__main--content{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .section__main--content{
+        width: 90%;
+    }
+}

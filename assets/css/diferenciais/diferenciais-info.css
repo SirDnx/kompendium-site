@@ -1,0 +1,11 @@
+.diferenciais--info{
+    order: 1;
+    width: 49%;
+}
+
+@media screen and (max-width: 768px){
+    .diferenciais--info{
+        order: 2;
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.transformacao__situacoes__img{
+    width: 49%;
+    background: url(../../../img/transformacaodigital.jpeg) no-repeat center / cover;
+    border-radius: 4px;
+}
+
+
+@media screen and (max-width: 960px){
+    .transformacao__situacoes__img{
+        height: 714px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .transformacao__situacoes__img{
+        height: 850px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .transformacao__situacoes__img{
+        box-sizing: initial;
+        width: 100%;
+        height: 366px;
+        margin-bottom: 1rem;
+    }
+}

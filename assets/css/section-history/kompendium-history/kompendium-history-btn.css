@@ -1,0 +1,25 @@
+.kompendium--history__btn{
+    align-items: center;
+    background-color: #e4e4e444;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    font-size: 1.2rem;
+    justify-content: center;
+    padding: 10px 15px;
+    transition: .3s ease;
+    width: 149px;
+}
+
+.kompendium--history__btn:hover{
+    background-color: var(--color-border);
+}
+
+@media screen and (max-width: 768px){
+    .kompendium--history__btn{
+        margin: 0 auto;
+    }
+}
+

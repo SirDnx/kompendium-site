@@ -1,0 +1,12 @@
+.footer__info__description{
+    color: var(--color-p-footer);
+    line-height: 25px;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px){
+    .footer__info__description{
+        line-height: 20px;
+        margin-top: .3rem;
+    }
+}

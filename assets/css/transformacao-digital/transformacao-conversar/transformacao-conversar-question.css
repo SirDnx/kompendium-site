@@ -1,0 +1,6 @@
+.transformacao__conversar__question{
+    color: var(--color-p-conversar);
+    font-size: 1.25rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}

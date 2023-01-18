@@ -1,0 +1,13 @@
+.beginning__menu--link{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 520px){
+    .beginning__menu--link{
+        justify-content: center;
+        width: 100px;
+    }
+}

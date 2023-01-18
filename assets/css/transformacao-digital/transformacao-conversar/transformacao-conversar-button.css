@@ -1,0 +1,18 @@
+.transformacao__conversar__button{
+    align-items: center;
+    background-color: var(--bg-blue);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 12px 15px;
+    transition: .3s ease;
+}
+
+.transformacao__conversar__button:hover{
+    background-color: var(--font-btn-hover);
+}

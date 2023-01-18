@@ -1,0 +1,13 @@
+.diferenciais__p1, .diferenciais__p2, .diferenciais__p3, .transformacao__jornada__p1, .transformacao__jornada__p2, .transformacao__jornada__p3, .transformacao__jornada__p4, .transformacao__jornada__p5, .transformacao__situacoes__p1, .transformacao__situacoes__p2, .transformacao__situacoes__p3, .transformacao__situacoes__p4, .kompendium--history__first--p, .kompendium--history__second--p{
+    color: var(--color-p-pattern);
+    font-size: 1.25rem;
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .diferenciais__p1, .diferenciais__p2, .diferenciais__p3, .transformacao__jornada__p1, .transformacao__jornada__p2, .transformacao__jornada__p3, .transformacao__jornada__p4, .transformacao__jornada__p5, .transformacao__situacoes__p1, .transformacao__situacoes__p2, .transformacao__situacoes__p3, .transformacao__situacoes__p4, .kompendium--history__first--p, .kompendium--history__second--p{
+        text-align: center;
+    }
+}

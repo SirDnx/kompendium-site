@@ -1,0 +1,16 @@
+.footer{
+    height: 235px;
+    width: 100%;
+}
+
+@media screen and (max-width: 960px){
+    .footer{
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 348px){
+    .footer{
+        height: 400px;
+    }
+}

@@ -1,0 +1,24 @@
+.diferenciais{
+    display: flex;
+    justify-content: space-between;
+    padding: 108px 0;
+}
+
+@media screen and (max-width: 1024px){
+    .diferenciais{
+        height: 667px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .diferenciais{
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .diferenciais{
+        flex-direction: column;
+        height: auto;
+    }
+}

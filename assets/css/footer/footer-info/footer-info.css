@@ -1,0 +1,17 @@
+.footer__info{
+    background-color: var(--color-bg-footer);
+    height: 198px;
+    width: 100%;
+}
+
+@media screen and (max-width: 960px){
+    .footer__info{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 348px){
+    .footer__info{
+        height: 300px;
+    }
+}

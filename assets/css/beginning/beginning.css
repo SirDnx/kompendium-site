@@ -1,0 +1,29 @@
+.beginning{
+    background: url(../../img/header.jpeg) no-repeat center / cover;
+    height: 90vh;
+    position: relative;
+}
+
+@media screen and (max-width: 1387px){
+    .beginning{
+        height: 115vh;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .beginning{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .beginning{
+        background: url(../../img/header_medio.jpg) no-repeat center / cover;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .beginning{
+        background: url(../../img/header_mobile.jpg) no-repeat center / cover;
+    }
+}

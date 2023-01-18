@@ -1,0 +1,46 @@
+.beginning__title{
+    color: #fff;
+    font-size: 2.3rem;
+    line-height: 1;
+    left: 160px;
+    position: absolute;
+    top: 160px;
+    width: 36%;
+}
+
+@media screen and (max-width: 1024px){
+    .beginning__title{
+        left: 90px;
+        top: 140px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .beginning__title{
+        margin: 0 auto;
+        padding-top: 100px;
+        position: static;
+        text-align: center;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .beginning__title{
+        font-size: 1.75rem;
+        padding-top: 150px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .beginning__title{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 0px){
+    .beginning__title{
+        font-size: 1.1rem;
+    }
+}

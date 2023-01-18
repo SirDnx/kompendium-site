@@ -1,0 +1,7 @@
+.sections--assessoria__item, .sections--gestao__item, .sections--consultoria__item {
+    color: var(--color-p-pattern);
+    line-height: 25px;
+    list-style-position: inside!important;
+    list-style-type: disc;
+}
+

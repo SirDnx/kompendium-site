@@ -1,0 +1,10 @@
+.footer__info__img{
+    display: block;
+    width: 250px;
+}
+
+@media screen and (max-width: 768px){
+    .footer__info__img{
+        margin: 0 auto;
+    }
+}

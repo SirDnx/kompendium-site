@@ -1,0 +1,16 @@
+.history__container__text{
+    margin-right: 3rem;
+    width: 59%;
+}
+
+@media screen and (max-width: 1200px) {
+    .history__container__text{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .history__container__text{
+       text-align: center;
+    }
+}

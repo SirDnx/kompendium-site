@@ -1,0 +1,30 @@
+.diferenciais__title, .transformacao__situacoes__title, .transformacao--title, .transformacao__jornada__title, .services__description--title, .kompendium--history__title{
+    font-weight: 100;
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+}
+
+@media screen and (max-width: 960px){
+    .diferenciais__title, .transformacao__situacoes__title, .transformacao--title, .transformacao__jornada__title, .services__description--title, .kompendium--history__title{
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .diferenciais__title, .transformacao__situacoes__title, .transformacao--title, .transformacao__jornada__title, .services__description--title, .kompendium--history__title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .diferenciais__title, .transformacao__situacoes__title, .transformacao--title, .transformacao__jornada__title, .services__description--title, .kompendium--history__title{
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .diferenciais__title, .transformacao__situacoes__title, .transformacao--title, .transformacao__jornada__title, .services__description--title, .kompendium--history__title{
+        font-size: 2rem;
+    }
+}

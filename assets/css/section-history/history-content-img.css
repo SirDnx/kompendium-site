@@ -1,0 +1,10 @@
+.history__content--img{
+    background: url(../../img/nossahistoria.jpeg) no-repeat center / cover;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 768px){
+    .history__content--img{
+        height: 257px;
+    }
+}

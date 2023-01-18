@@ -1,0 +1,19 @@
+.beginning__main--link{
+    align-items: center;
+    background-color: var(--bg-blue);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 50px;
+    padding: .8rem 1rem;
+    transition: .3s ease;
+    width: 200px;
+}
+
+.beginning__main--link:hover{
+    background-color: var(--font-btn-hover);
+}
+

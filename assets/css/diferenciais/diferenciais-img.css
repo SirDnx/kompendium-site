@@ -1,0 +1,28 @@
+.diferenciais__img{
+    background: url(../../img/nossosdiferenciais.jpeg) no-repeat center / cover;
+    border-radius: 4px;
+    height: 424px;
+    order: 1;
+    width: 49%;
+}
+
+@media screen and (max-width: 1024px){
+    .diferenciais__img{
+        height: 485px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .diferenciais__img{
+        height: 568px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .diferenciais__img{
+        height: 366px;
+        margin-bottom: 1rem;
+        order: 1;
+        width: 100%;
+    }
+}

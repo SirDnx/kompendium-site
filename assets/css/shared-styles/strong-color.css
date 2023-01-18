@@ -1,0 +1,4 @@
+h2 strong, h3 strong{
+    color: var(--color-strong-pattern);
+    font-weight: 100;
+}

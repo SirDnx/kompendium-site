@@ -1,0 +1,9 @@
+.transformacao__situacoes__list{
+    width: 49%;
+}
+
+@media screen and (max-width: 768px){
+    .transformacao__situacoes__list{
+        width: 100%;
+    }
+}

@@ -1,0 +1,28 @@
+.header__instagram{
+    align-items: center;
+    background-color: var(--bg-blue);
+    color: var(--font-color-pattern);
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    left: 0;
+    padding: 0 155px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media screen and (max-width: 1024px){
+    .header__instagram{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header__instagram{
+        display: none;
+    }
+}
+
+

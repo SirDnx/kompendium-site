@@ -1,0 +1,6 @@
+.services__description--text{
+    color: var(--color-strong-pattern);
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 30px;
+}

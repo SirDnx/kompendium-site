@@ -1,0 +1,16 @@
+.header{
+    background-color: #fff;
+    height: 117px;
+    position: static;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .header{
+       height: 77px;
+    }
+}
+
+
+
+

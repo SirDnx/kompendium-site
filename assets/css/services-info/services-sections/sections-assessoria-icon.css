@@ -1,0 +1,6 @@
+.sections--assessoria__icon, .sections--gestao__icon, .sections--consultoria__icon{
+    display: block;
+    margin: 0 auto;
+    color: var(--bg-blue);
+    width: 149px;
+}

@@ -1,0 +1,18 @@
+.transformacao--info{
+    text-align: center;
+    padding: 88px 0;
+}
+
+
+@media screen and (max-width: 1024px){
+    .transformacao--info{
+        max-width: 677px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .transformacao--info{
+        max-width: 500px;
+    }
+}

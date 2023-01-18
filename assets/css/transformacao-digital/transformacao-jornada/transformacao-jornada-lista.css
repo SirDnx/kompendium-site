@@ -1,0 +1,11 @@
+.transformacao__jornada__lista{
+    width: 49%;
+    order: 1;
+}
+
+@media screen and (max-width: 768px){
+    .transformacao__jornada__lista{
+        width: 100%;
+        order: 2;
+    }
+}

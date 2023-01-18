@@ -1,0 +1,23 @@
+.transformacao__jornada__img{
+    width: 49%;
+    background: url(../../../img/jornadadigital.jpeg) no-repeat center / cover;
+    border-radius: 4px;
+    order: 1;
+}
+
+@media screen and (max-width: 960px){
+    .transformacao__jornada__img{
+        height: 738px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .transformacao__jornada__img{
+        background-position: top;
+        margin-top: 1rem;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+

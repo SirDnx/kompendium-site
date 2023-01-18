@@ -1,0 +1,25 @@
+.transformacao__jornada{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 636px;
+}
+
+@media screen and (max-width: 1024px){
+    .transformacao__jornada{
+        height: 570px;
+    }   
+}
+
+@media screen and (max-width: 960px){
+    .transformacao__jornada{
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .transformacao__jornada{
+        flex-direction: column;
+        height: auto;
+    }
+}

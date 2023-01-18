@@ -1,0 +1,18 @@
+.background--window{
+    background-color: #0000007b;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1599;
+}
+
+.background--window.show{
+    display: block;
+}
+
+.background--window.show .history--window, .background--window.show .form--window{
+    display: flex;
+}

@@ -1,0 +1,33 @@
+.header__logo{
+    align-items: center;
+    background-color: #fff;
+    display: flex; 
+    height: calc(117px - 40px);
+    justify-content: space-between;
+    left: 0;
+    max-width: 100%;
+    padding: 0px 155px;
+    position: fixed;
+    top: 40px;
+    width: inherit;
+    z-index: 1000; 
+}
+
+@media screen and (max-width: 1200px){
+    .header__logo{
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header__logo{
+        justify-content: space-around;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .header__logo{
+        padding: 0px 5px;
+    }
+}

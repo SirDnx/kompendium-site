@@ -1,0 +1,24 @@
+.beginning__menu--list{
+    align-items: flex-start;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    position: absolute;
+    padding: 0 22%;
+    right: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .beginning__menu--list{
+        bottom: 60px;
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .beginning__menu--list{
+        padding: 0px 5px;
+    }
+}
