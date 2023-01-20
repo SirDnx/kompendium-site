@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 768px){
     .kompendium--history__btn{
+        width: 55%;
         margin: 0 auto;
     }
 }
@@ -28,5 +29,6 @@
         width: 90%;
     }
 }
+
 
 

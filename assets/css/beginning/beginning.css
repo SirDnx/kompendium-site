@@ -18,6 +18,7 @@
 
 @media screen and (max-width: 768px){
     .beginning{
+        min-height: 600px;
         background: url(../../img/header_medio.jpg) no-repeat center / cover;
     }
 }
