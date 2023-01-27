@@ -1,6 +1,6 @@
 .beginning__menu--icon{
-    margin-bottom: 1.35rem;
     width: 60px;
+    height: 60px;
 }
 
 @media screen and (max-width: 520px){

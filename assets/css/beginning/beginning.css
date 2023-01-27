@@ -2,6 +2,7 @@
     background: url(../../img/header.jpeg) no-repeat center / cover;
     height: 90vh;
     position: relative;
+    min-height: 700px;
 }
 
 @media screen and (max-width: 1387px){
@@ -18,7 +19,6 @@
 
 @media screen and (max-width: 768px){
     .beginning{
-        min-height: 600px;
         background: url(../../img/header_medio.jpg) no-repeat center / cover;
     }
 }
